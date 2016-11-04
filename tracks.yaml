@@ -12,13 +12,13 @@ tracks:
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
-    devel_branch: 0.0.1
+    devel_branch: 0.1.1
     last_version: 0.0.1
     name: simple_voice
     patches: null
     release_inc: '2'
     release_repo_url: https://github.com/DinnerHowe/simple_voice-release.git
-    release_tag: 0.0.1
+    release_tag: 0.1.1
     ros_distro: indigo
     vcs_type: git
     vcs_uri: https://github.com/DinnerHowe/simple_voice.git
@@ -36,13 +36,13 @@ tracks:
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
-    devel_branch: 0.0.1
+    devel_branch: 0.1.1
     last_version: 0.0.1
     name: simple_voice
     patches: null
     release_inc: '2'
     release_repo_url: https://github.com/DinnerHowe/simple_voice-release.git
-    release_tag: 0.0.1
+    release_tag: 0.1.1
     ros_distro: jade
     vcs_type: git
     vcs_uri: https://github.com/DinnerHowe/simple_voice.git
